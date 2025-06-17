@@ -2,7 +2,7 @@ Cityscale图像分割可视化统计报告
 ==================================================
 权重文件: weights/SwinT_OA_Cityscale_best_loss.th
 输入尺寸: (1024, 1024)
-可视化样本数: 20
+可视化样本数: 108
 保存目录: results/cityscale
 合并可视化图像: results/cityscale/sample_*.png
 原始图像目录: results/cityscale/images/
@@ -10,32 +10,120 @@ Cityscale图像分割可视化统计报告
 预测掩码目录: results/cityscale/pred/
 --------------------------------------------------
 平均性能指标:
-Dice系数: 0.5844
-IoU: 0.4169
-F1分数: 0.5844
-精确率: 0.5483
-召回率: 0.6272
+Dice系数: 0.5693
+IoU: 0.4041
+F1分数: 0.5693
+精确率: 0.5385
+召回率: 0.6090
 ==================================================
 
 各样本详细指标:
 --------------------------------------------------
-样本 001: Dice=0.543, IoU=0.373, F1=0.543, Precision=0.490, Recall=0.608
-样本 002: Dice=0.688, IoU=0.524, F1=0.688, Precision=0.648, Recall=0.733
-样本 003: Dice=0.696, IoU=0.533, F1=0.696, Precision=0.631, Recall=0.775
-样本 004: Dice=0.628, IoU=0.458, F1=0.628, Precision=0.626, Recall=0.630
-样本 005: Dice=0.609, IoU=0.438, F1=0.609, Precision=0.553, Recall=0.678
-样本 006: Dice=0.373, IoU=0.229, F1=0.373, Precision=0.341, Recall=0.411
-样本 007: Dice=0.598, IoU=0.426, F1=0.598, Precision=0.547, Recall=0.659
-样本 008: Dice=0.546, IoU=0.375, F1=0.546, Precision=0.523, Recall=0.570
-样本 009: Dice=0.578, IoU=0.406, F1=0.578, Precision=0.581, Recall=0.574
-样本 010: Dice=0.670, IoU=0.503, F1=0.670, Precision=0.649, Recall=0.691
-样本 011: Dice=0.479, IoU=0.315, F1=0.479, Precision=0.464, Recall=0.495
-样本 012: Dice=0.574, IoU=0.403, F1=0.574, Precision=0.533, Recall=0.621
-样本 013: Dice=0.646, IoU=0.477, F1=0.646, Precision=0.581, Recall=0.727
-样本 014: Dice=0.608, IoU=0.437, F1=0.608, Precision=0.581, Recall=0.637
-样本 015: Dice=0.621, IoU=0.450, F1=0.621, Precision=0.579, Recall=0.669
-样本 016: Dice=0.644, IoU=0.475, F1=0.644, Precision=0.593, Recall=0.705
-样本 017: Dice=0.632, IoU=0.462, F1=0.632, Precision=0.591, Recall=0.679
-样本 018: Dice=0.508, IoU=0.341, F1=0.508, Precision=0.492, Recall=0.526
-样本 019: Dice=0.548, IoU=0.377, F1=0.548, Precision=0.508, Recall=0.595
-样本 020: Dice=0.502, IoU=0.335, F1=0.502, Precision=0.455, Recall=0.560
+样本 001: Dice=0.654, IoU=0.486, F1=0.654, Precision=0.592, Recall=0.730
+样本 002: Dice=0.539, IoU=0.369, F1=0.539, Precision=0.469, Recall=0.634
+样本 003: Dice=0.566, IoU=0.395, F1=0.566, Precision=0.459, Recall=0.737
+样本 004: Dice=0.534, IoU=0.364, F1=0.534, Precision=0.520, Recall=0.548
+样本 005: Dice=0.543, IoU=0.373, F1=0.543, Precision=0.490, Recall=0.608
+样本 006: Dice=0.487, IoU=0.322, F1=0.487, Precision=0.453, Recall=0.527
+样本 007: Dice=0.700, IoU=0.539, F1=0.700, Precision=0.627, Recall=0.793
+样本 008: Dice=0.460, IoU=0.299, F1=0.460, Precision=0.440, Recall=0.482
+样本 009: Dice=0.647, IoU=0.478, F1=0.647, Precision=0.621, Recall=0.675
+样本 010: Dice=0.508, IoU=0.341, F1=0.508, Precision=0.492, Recall=0.526
+样本 011: Dice=0.657, IoU=0.489, F1=0.657, Precision=0.597, Recall=0.730
+样本 012: Dice=0.512, IoU=0.344, F1=0.512, Precision=0.499, Recall=0.526
+样本 013: Dice=0.473, IoU=0.310, F1=0.473, Precision=0.449, Recall=0.499
+样本 014: Dice=0.546, IoU=0.375, F1=0.546, Precision=0.523, Recall=0.570
+样本 015: Dice=0.632, IoU=0.462, F1=0.632, Precision=0.591, Recall=0.679
+样本 016: Dice=0.648, IoU=0.479, F1=0.648, Precision=0.587, Recall=0.723
+样本 017: Dice=0.670, IoU=0.503, F1=0.670, Precision=0.649, Recall=0.691
+样本 018: Dice=0.537, IoU=0.367, F1=0.537, Precision=0.500, Recall=0.580
+样本 019: Dice=0.488, IoU=0.322, F1=0.488, Precision=0.442, Recall=0.544
+样本 020: Dice=0.571, IoU=0.400, F1=0.571, Precision=0.547, Recall=0.598
+样本 021: Dice=0.621, IoU=0.450, F1=0.621, Precision=0.579, Recall=0.669
+样本 022: Dice=0.472, IoU=0.309, F1=0.472, Precision=0.472, Recall=0.472
+样本 023: Dice=0.418, IoU=0.264, F1=0.418, Precision=0.434, Recall=0.403
+样本 024: Dice=0.578, IoU=0.406, F1=0.578, Precision=0.581, Recall=0.574
+样本 025: Dice=0.680, IoU=0.515, F1=0.680, Precision=0.603, Recall=0.778
+样本 026: Dice=0.634, IoU=0.464, F1=0.634, Precision=0.610, Recall=0.659
+样本 027: Dice=0.639, IoU=0.469, F1=0.639, Precision=0.592, Recall=0.693
+样本 028: Dice=0.605, IoU=0.434, F1=0.605, Precision=0.569, Recall=0.646
+样本 029: Dice=0.740, IoU=0.587, F1=0.740, Precision=0.652, Recall=0.855
+样本 030: Dice=0.372, IoU=0.228, F1=0.372, Precision=0.284, Recall=0.539
+样本 031: Dice=0.392, IoU=0.244, F1=0.392, Precision=0.376, Recall=0.411
+样本 032: Dice=0.601, IoU=0.429, F1=0.601, Precision=0.538, Recall=0.680
+样本 033: Dice=0.477, IoU=0.313, F1=0.477, Precision=0.497, Recall=0.458
+样本 034: Dice=0.559, IoU=0.388, F1=0.559, Precision=0.533, Recall=0.588
+样本 035: Dice=0.614, IoU=0.443, F1=0.614, Precision=0.597, Recall=0.632
+样本 036: Dice=0.696, IoU=0.533, F1=0.696, Precision=0.628, Recall=0.780
+样本 037: Dice=0.685, IoU=0.521, F1=0.685, Precision=0.657, Recall=0.716
+样本 038: Dice=0.552, IoU=0.381, F1=0.552, Precision=0.520, Recall=0.588
+样本 039: Dice=0.548, IoU=0.377, F1=0.548, Precision=0.508, Recall=0.595
+样本 040: Dice=0.497, IoU=0.331, F1=0.497, Precision=0.425, Recall=0.598
+样本 041: Dice=0.574, IoU=0.403, F1=0.574, Precision=0.533, Recall=0.621
+样本 042: Dice=0.636, IoU=0.467, F1=0.636, Precision=0.553, Recall=0.749
+样本 043: Dice=0.577, IoU=0.405, F1=0.577, Precision=0.519, Recall=0.649
+样本 044: Dice=0.653, IoU=0.485, F1=0.653, Precision=0.605, Recall=0.709
+样本 045: Dice=0.552, IoU=0.381, F1=0.552, Precision=0.526, Recall=0.581
+样本 046: Dice=0.609, IoU=0.438, F1=0.609, Precision=0.553, Recall=0.678
+样本 047: Dice=0.678, IoU=0.513, F1=0.678, Precision=0.632, Recall=0.732
+样本 048: Dice=0.479, IoU=0.315, F1=0.479, Precision=0.464, Recall=0.495
+样本 049: Dice=0.560, IoU=0.389, F1=0.560, Precision=0.553, Recall=0.568
+样本 050: Dice=0.559, IoU=0.388, F1=0.559, Precision=0.556, Recall=0.563
+样本 051: Dice=0.682, IoU=0.517, F1=0.682, Precision=0.636, Recall=0.735
+样本 052: Dice=0.625, IoU=0.455, F1=0.625, Precision=0.583, Recall=0.674
+样本 053: Dice=0.628, IoU=0.458, F1=0.628, Precision=0.626, Recall=0.630
+样本 054: Dice=0.513, IoU=0.345, F1=0.513, Precision=0.541, Recall=0.488
+样本 055: Dice=0.601, IoU=0.430, F1=0.601, Precision=0.600, Recall=0.603
+样本 056: Dice=0.673, IoU=0.508, F1=0.673, Precision=0.621, Recall=0.736
+样本 057: Dice=0.370, IoU=0.227, F1=0.370, Precision=0.345, Recall=0.399
+样本 058: Dice=0.583, IoU=0.412, F1=0.583, Precision=0.539, Recall=0.636
+样本 059: Dice=0.684, IoU=0.520, F1=0.684, Precision=0.621, Recall=0.762
+样本 060: Dice=0.688, IoU=0.524, F1=0.688, Precision=0.648, Recall=0.733
+样本 061: Dice=0.715, IoU=0.557, F1=0.715, Precision=0.658, Recall=0.784
+样本 062: Dice=0.373, IoU=0.229, F1=0.373, Precision=0.341, Recall=0.411
+样本 063: Dice=0.331, IoU=0.198, F1=0.331, Precision=0.335, Recall=0.327
+样本 064: Dice=0.729, IoU=0.573, F1=0.729, Precision=0.690, Recall=0.772
+样本 065: Dice=0.661, IoU=0.494, F1=0.661, Precision=0.659, Recall=0.663
+样本 066: Dice=0.366, IoU=0.224, F1=0.366, Precision=0.525, Recall=0.281
+样本 067: Dice=0.570, IoU=0.399, F1=0.570, Precision=0.517, Recall=0.635
+样本 068: Dice=0.579, IoU=0.407, F1=0.579, Precision=0.527, Recall=0.641
+样本 069: Dice=0.675, IoU=0.510, F1=0.675, Precision=0.615, Recall=0.749
+样本 070: Dice=0.672, IoU=0.506, F1=0.672, Precision=0.622, Recall=0.732
+样本 071: Dice=0.530, IoU=0.360, F1=0.530, Precision=0.521, Recall=0.538
+样本 072: Dice=0.646, IoU=0.477, F1=0.646, Precision=0.581, Recall=0.727
+样本 073: Dice=0.644, IoU=0.475, F1=0.644, Precision=0.593, Recall=0.705
+样本 074: Dice=0.634, IoU=0.464, F1=0.634, Precision=0.576, Recall=0.705
+样本 075: Dice=0.567, IoU=0.396, F1=0.567, Precision=0.549, Recall=0.587
+样本 076: Dice=0.520, IoU=0.351, F1=0.520, Precision=0.524, Recall=0.516
+样本 077: Dice=0.565, IoU=0.394, F1=0.565, Precision=0.554, Recall=0.577
+样本 078: Dice=0.598, IoU=0.426, F1=0.598, Precision=0.547, Recall=0.659
+样本 079: Dice=0.612, IoU=0.441, F1=0.612, Precision=0.568, Recall=0.663
+样本 080: Dice=0.579, IoU=0.408, F1=0.579, Precision=0.541, Recall=0.624
+样本 081: Dice=0.202, IoU=0.112, F1=0.202, Precision=0.269, Recall=0.162
+样本 082: Dice=0.608, IoU=0.437, F1=0.608, Precision=0.581, Recall=0.637
+样本 083: Dice=0.696, IoU=0.533, F1=0.696, Precision=0.631, Recall=0.775
+样本 084: Dice=0.567, IoU=0.396, F1=0.567, Precision=0.538, Recall=0.599
+样本 085: Dice=0.403, IoU=0.252, F1=0.403, Precision=0.419, Recall=0.388
+样本 086: Dice=0.584, IoU=0.412, F1=0.584, Precision=0.544, Recall=0.629
+样本 087: Dice=0.647, IoU=0.478, F1=0.647, Precision=0.599, Recall=0.703
+样本 088: Dice=0.676, IoU=0.510, F1=0.676, Precision=0.645, Recall=0.709
+样本 089: Dice=0.631, IoU=0.461, F1=0.631, Precision=0.603, Recall=0.661
+样本 090: Dice=0.390, IoU=0.243, F1=0.390, Precision=0.417, Recall=0.367
+样本 091: Dice=0.463, IoU=0.301, F1=0.463, Precision=0.412, Recall=0.527
+样本 092: Dice=0.505, IoU=0.338, F1=0.505, Precision=0.498, Recall=0.512
+样本 093: Dice=0.723, IoU=0.566, F1=0.723, Precision=0.688, Recall=0.760
+样本 094: Dice=0.554, IoU=0.383, F1=0.554, Precision=0.524, Recall=0.589
+样本 095: Dice=0.470, IoU=0.307, F1=0.470, Precision=0.460, Recall=0.480
+样本 096: Dice=0.512, IoU=0.344, F1=0.512, Precision=0.464, Recall=0.570
+样本 097: Dice=0.516, IoU=0.348, F1=0.516, Precision=0.498, Recall=0.536
+样本 098: Dice=0.594, IoU=0.422, F1=0.594, Precision=0.567, Recall=0.624
+样本 099: Dice=0.579, IoU=0.407, F1=0.579, Precision=0.533, Recall=0.634
+样本 100: Dice=0.661, IoU=0.494, F1=0.661, Precision=0.636, Recall=0.689
+样本 101: Dice=0.528, IoU=0.359, F1=0.528, Precision=0.562, Recall=0.499
+样本 102: Dice=0.426, IoU=0.270, F1=0.426, Precision=0.472, Recall=0.388
+样本 103: Dice=0.591, IoU=0.419, F1=0.591, Precision=0.561, Recall=0.624
+样本 104: Dice=0.630, IoU=0.460, F1=0.630, Precision=0.585, Recall=0.683
+样本 105: Dice=0.513, IoU=0.345, F1=0.513, Precision=0.504, Recall=0.523
+样本 106: Dice=0.541, IoU=0.371, F1=0.541, Precision=0.504, Recall=0.584
+样本 107: Dice=0.531, IoU=0.362, F1=0.531, Precision=0.483, Recall=0.590
+样本 108: Dice=0.502, IoU=0.335, F1=0.502, Precision=0.455, Recall=0.560
