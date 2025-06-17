@@ -1,0 +1,41 @@
+Cityscale图像分割可视化统计报告
+==================================================
+权重文件: weights/SwinT_OA_Cityscale_best_loss.th
+输入尺寸: (1024, 1024)
+可视化样本数: 20
+保存目录: results/cityscale
+合并可视化图像: results/cityscale/sample_*.png
+原始图像目录: results/cityscale/images/
+真实掩码目录: results/cityscale/gt/
+预测掩码目录: results/cityscale/pred/
+--------------------------------------------------
+平均性能指标:
+Dice系数: 0.5844
+IoU: 0.4169
+F1分数: 0.5844
+精确率: 0.5483
+召回率: 0.6272
+==================================================
+
+各样本详细指标:
+--------------------------------------------------
+样本 001: Dice=0.543, IoU=0.373, F1=0.543, Precision=0.490, Recall=0.608
+样本 002: Dice=0.688, IoU=0.524, F1=0.688, Precision=0.648, Recall=0.733
+样本 003: Dice=0.696, IoU=0.533, F1=0.696, Precision=0.631, Recall=0.775
+样本 004: Dice=0.628, IoU=0.458, F1=0.628, Precision=0.626, Recall=0.630
+样本 005: Dice=0.609, IoU=0.438, F1=0.609, Precision=0.553, Recall=0.678
+样本 006: Dice=0.373, IoU=0.229, F1=0.373, Precision=0.341, Recall=0.411
+样本 007: Dice=0.598, IoU=0.426, F1=0.598, Precision=0.547, Recall=0.659
+样本 008: Dice=0.546, IoU=0.375, F1=0.546, Precision=0.523, Recall=0.570
+样本 009: Dice=0.578, IoU=0.406, F1=0.578, Precision=0.581, Recall=0.574
+样本 010: Dice=0.670, IoU=0.503, F1=0.670, Precision=0.649, Recall=0.691
+样本 011: Dice=0.479, IoU=0.315, F1=0.479, Precision=0.464, Recall=0.495
+样本 012: Dice=0.574, IoU=0.403, F1=0.574, Precision=0.533, Recall=0.621
+样本 013: Dice=0.646, IoU=0.477, F1=0.646, Precision=0.581, Recall=0.727
+样本 014: Dice=0.608, IoU=0.437, F1=0.608, Precision=0.581, Recall=0.637
+样本 015: Dice=0.621, IoU=0.450, F1=0.621, Precision=0.579, Recall=0.669
+样本 016: Dice=0.644, IoU=0.475, F1=0.644, Precision=0.593, Recall=0.705
+样本 017: Dice=0.632, IoU=0.462, F1=0.632, Precision=0.591, Recall=0.679
+样本 018: Dice=0.508, IoU=0.341, F1=0.508, Precision=0.492, Recall=0.526
+样本 019: Dice=0.548, IoU=0.377, F1=0.548, Precision=0.508, Recall=0.595
+样本 020: Dice=0.502, IoU=0.335, F1=0.502, Precision=0.455, Recall=0.560

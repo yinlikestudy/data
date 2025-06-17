@@ -1,0 +1,40 @@
+SpaceNet道路分割可视化统计报告
+==================================================
+权重文件: weights/SwinT_OA_SpaceNet_best_dice.th
+可视化样本数: 20
+保存目录: results/spacenet
+合并可视化图像: results/spacenet/sample_*.png
+原始图像目录: results/spacenet/images/
+真实掩码目录: results/spacenet/gt/
+预测掩码目录: results/spacenet/pred/
+--------------------------------------------------
+平均性能指标:
+Dice系数: 0.5350
+IoU: 0.3777
+F1分数: 0.5350
+精确率: 0.5030
+召回率: 0.5862
+==================================================
+
+各样本详细指标:
+--------------------------------------------------
+样本 001: Dice=0.616, IoU=0.445, F1=0.616, Precision=0.561, Recall=0.683
+样本 002: Dice=0.310, IoU=0.184, F1=0.310, Precision=0.205, Recall=0.637
+样本 003: Dice=0.511, IoU=0.344, F1=0.511, Precision=0.592, Recall=0.450
+样本 004: Dice=0.693, IoU=0.530, F1=0.693, Precision=0.723, Recall=0.666
+样本 005: Dice=0.000, IoU=0.000, F1=0.000, Precision=0.000, Recall=0.000
+样本 006: Dice=0.386, IoU=0.239, F1=0.386, Precision=0.402, Recall=0.372
+样本 007: Dice=0.532, IoU=0.362, F1=0.532, Precision=0.510, Recall=0.555
+样本 008: Dice=0.644, IoU=0.475, F1=0.644, Precision=0.605, Recall=0.689
+样本 009: Dice=0.592, IoU=0.421, F1=0.592, Precision=0.538, Recall=0.659
+样本 010: Dice=0.669, IoU=0.503, F1=0.669, Precision=0.630, Recall=0.713
+样本 011: Dice=0.584, IoU=0.412, F1=0.584, Precision=0.538, Recall=0.639
+样本 012: Dice=0.515, IoU=0.347, F1=0.515, Precision=0.506, Recall=0.525
+样本 013: Dice=0.529, IoU=0.359, F1=0.529, Precision=0.465, Recall=0.613
+样本 014: Dice=0.534, IoU=0.364, F1=0.534, Precision=0.472, Recall=0.614
+样本 015: Dice=0.608, IoU=0.437, F1=0.608, Precision=0.536, Recall=0.704
+样本 016: Dice=0.483, IoU=0.318, F1=0.483, Precision=0.441, Recall=0.534
+样本 017: Dice=0.635, IoU=0.466, F1=0.635, Precision=0.602, Recall=0.672
+样本 018: Dice=0.581, IoU=0.410, F1=0.581, Precision=0.547, Recall=0.619
+样本 019: Dice=0.632, IoU=0.462, F1=0.632, Precision=0.584, Recall=0.688
+样本 020: Dice=0.645, IoU=0.476, F1=0.645, Precision=0.603, Recall=0.694
